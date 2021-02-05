@@ -1,5 +1,5 @@
 
-const rule = require('../lib/import-specifier-newline')
+const rule = require('../lib/rules/import-specifier-newline')
 let RuleTester
 try {
     RuleTester = require('eslint/lib/rule-tester').RuleTester

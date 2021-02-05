@@ -1,5 +1,5 @@
 
-const rule = require('../lib/import-source-newline')
+const rule = require('../lib/rules/import-source-newline')
 let RuleTester
 try {
     RuleTester = require('eslint/lib/rule-tester').RuleTester
