@@ -1,0 +1,26 @@
+{
+  "name": "@talltotal/eslint-plugin-talltotal",
+  "version": "0.0.1-alpha",
+  "description": "plugin for eslint",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": "git@github.com:talltotal/eslint-plugin-talltotal.git",
+  "scripts": {
+    "test": "mocha --exit -R progress -c test/**/*.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslint plugin",
+    "import-specifier-newline"
+  ],
+  "author": "talltotal",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
